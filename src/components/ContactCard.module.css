@@ -1,0 +1,54 @@
+.card {
+  background-color: #ffeaae;
+  border-radius: 10px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+}
+
+.contact {
+  font-size: 30px;
+  margin: 5px;
+  color: #f6820c;
+  background-color: #ffeaae;
+}
+
+.contactDetails {
+  background-color: #ffeaae;
+  height: 100%;
+}
+
+.name {
+  background-color: #ffeaae;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.email {
+  background-color: #ffeaae;
+  font-size: 14px;
+  font-weight: 400;
+  word-break: break-all;
+  white-space: normal;
+  max-width: 210px;
+}
+
+.edit {
+    background-color: #ffeaae;
+    font-size: 30px;
+    color: purple;
+}
+
+.delete {
+    background-color: #ffeaae;
+    font-size: 30px;
+    color: purple;
+}
+
+.button {
+    border: none;
+    height: 30px;
+    cursor: pointer;
+}

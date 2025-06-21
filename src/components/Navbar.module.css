@@ -1,0 +1,60 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: white;
+  height: 50px;
+  gap: 10px;
+  border-radius: 10px;
+}
+
+.navbar h3 {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.navbar img {
+    background-color: white;
+}
+
+.searchContainer {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+}
+
+.searchContainer input {
+    width: 310px;
+    color: white;
+    height: 30px;
+    padding: 5px;
+    padding-left: 40px;
+    gap: 10px;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-weight: 14px;
+    font-weight: 400;
+}
+
+.searchIcon {
+    position: absolute;
+    color: white;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.addButton {
+    border: none;
+}
+
+.addIcon {
+    color: white;
+    font-size: 60px;
+    margin-left: 5px;
+    margin-right: -8px;
+    cursor: pointer;
+}
