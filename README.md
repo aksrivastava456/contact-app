@@ -1,12 +1,37 @@
-# React + Vite
+# 📬 Firebase Contact App – React CRUD Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple contact management web app built with React and Firebase. Users can add, edit, and delete contacts — all data is synced in real-time using Firebase Realtime Database.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔗 Live Demo
 
-## Expanding the ESLint configuration
+🌐 **Live URL:** [https://contact-app-puce-iota.vercel.app](https://contact-app-puce-iota.vercel.app)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- React  
+- Firebase Realtime Database  
+- CSS
+
+---
+
+## 🔍 Features
+
+- ➕ Add new contacts  
+- ✏️ Edit existing contacts  
+- ❌ Delete contacts  
+- 🔁 Real-time sync with Firebase  
+- 📱 Responsive layout
+
+---
+
+## 📁 Run Locally
+
+```bash
+git clone https://github.com/aksrivastava456/firebase-contact-app.git
+cd firebase-contact-app
+npm install
+npm start
